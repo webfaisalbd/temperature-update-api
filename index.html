@@ -23,8 +23,8 @@
 
 <body>
     <div class="container">
-        <form class="col-md-6 m-auto py-5">
-            <div class="input-group mb-3">
+        <form class="col-md-6 m-auto py-1">
+            <div class="input-group mb-1">
                 <input type="text" id="city" class="form-control" placeholder="Enter a location for Weather ...">
                 <div class="input-group-append">
                     <button type="button" class="btn btn-danger" id="search_button">Search</button>
@@ -32,10 +32,13 @@
             </div>
         </form>
         <div class="weather-status text-white text-center">
-            <img id="icon" src="" alt="">
+            <img id="icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
             <h1 id="show_city">Dhaka</h1>
-            <h3><span id="show_temperature"></span>&deg;C</h3>
-            <h1 id="weather_status" class="lead">Rain</h1>
+            <h3><span id="show_temperature">30</span>&deg;C</h3>
+            <h1 id="weather_status" class="lead">Warm</h1>
+            <h1 class="lead">Sunrise: <span id="sunrise">5:40 AM</span></h1>
+            <h1 class="lead">Sunset: <span id="sunset">6:15 PM</span></h1>
+
         </div>
     </div>
     <!--  JavaScript -->
